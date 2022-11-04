@@ -16,9 +16,11 @@ Additional functionalities included
 - history log which records previous equation or expression
 - copy result to clipboard from history log
 
-Additional functionalities not included due to time (will revisit again)
+Functionalities not included due to time (will revisit again)
 
 - denominator (1/x)
 - square root (√)
 - power of 2 (x^2)
 - power (x^y)
+- key strokes
+- error handling for syntax error (divide 0)
