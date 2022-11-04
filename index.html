@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/calculator.png" type="image/x-icon">
 </head>
 
 <body>
@@ -49,11 +50,24 @@
                     <button id="calc_eval" value="=">=</button>
                 </div>
                 <div id="extra-buttons" class="button-row">
-                    <button id="calc_denom" value="1/x"><span class="denominator"><span class="denom-top">1</span><span
-                                class="denom-slash">/</span><span class="denom-btm">x</span></span></button>
-                    <button id="calc_sqrt" value="&radic;">&radic;</button>
-                    <button id="calc_square" value="x2">x<span class="exponent">2</span></button>
-                    <button id="calc_powerof" class="calc_op" value="^">y<span class="exponent">x</span></button>
+                    <button id="calc_denom" value="denom">
+                        <span class="denominator">
+                            <span class="denom-top">1</span>
+                            <span class="denom-slash">/</span>
+                            <span class="denom-btm">x</span>
+                        </span>
+                    </button>
+                    <button id="calc_sqrt" value="&radic;">
+                        &radic;
+                    </button>
+                    <button id="calc_square" value="x2">
+                        x
+                        <span class="exponent">2</span>
+                    </button>
+                    <button id="calc_powerof" class="calc_op" value="^">
+                        y
+                        <span class="exponent">x</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -61,7 +75,7 @@
             <ul id="results_list">
                 <li id="result_default">Memory is Empty</li>
             </ul>
-            <a id="result_clear" href="#">Wipe</a>
+            <a id="result_clear" href="#">Clear Memory</a>
         </div>
     </div>
 </body>
