@@ -14,6 +14,7 @@ Includes basic functionalities of a calculator
 Additional functionalities included
 
 - history log which records previous equation or expression
+- copy result to clipboard from history log
 
 Additional functionalities not included due to time (will revisit again)
 
